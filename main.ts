@@ -146,3 +146,31 @@ switch (true) {
 console.log(total);
 
 console.log(`Im ${sales} war der Umsatz ${total}`);
+
+
+// Math
+
+
+const PI = Math.PI
+console.log(PI);
+const roundedPI = Math.round
+console.log(roundedPI);
+
+
+let ball
+ball = 
+ball = Math.round
+console.log(ball);
+
+const randomNum = Math.random()  
+const randomNum1_10 = Math.floor(Math.random()* 10 +1 )
+const randomNum1_100 = Math.floor(Math.random()* 100 +1 )
+
+let gN = window.prompt("Guess a number between 1 - 10")
+
+const rN = Math.round(Math.random() *10 +1)
+if (Number(gN) === rN) {
+    console.log("You guessed correct !!!");
+} else {
+    console.log("Looser");
+}
